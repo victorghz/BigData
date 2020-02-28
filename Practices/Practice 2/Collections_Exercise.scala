@@ -5,7 +5,7 @@ var lista = List("rojo","blanco","negro")
 lista = lista.++:(List("verde" ,"amarillo", "azul", "naranja", "perla"))
 
 // 3. Traer los elementos de "lista" "verde", "amarillo", "azul"
-
+lista.slice(0,3)
 
 // 4. Crea un arreglo de numero en rango del 1-1000 en pasos de 5 en 5
 val arr = Array.range(1,1000,5)
