@@ -1,34 +1,34 @@
 # BigData
 <div style="text-align: center">
+ <h4>
+ NATIONAL TECHNOLOGICAL OF MEXICO
  
-**NATIONAL TECHNOLOGICAL OF MEXICO**
  
- 
-**TIJUANA TECHNOLOGICAL INSTITUTE**
+TIJUANA TECHNOLOGICAL INSTITUTE
 
 
-**ACADEMIC SUB-DIRECTION**
+ACADEMIC SUB-DIRECTION
 
 
-**DEPARTMENT OF SYSTEMS AND COMPUTATION**
+DEPARTMENT OF SYSTEMS AND COMPUTATION
 
 
-**PERIOD: January - June 2020**
+PERIOD: January - June 2020
 
 
-**Career: Engineer in Computer Systems**
+Career: Engineer in Computer Systems
 
 
-**Subject matter: Massive Data (BDD-1704 IF9A)**
+Subject matter: Massive Data (BDD-1704 IF9A)
 
 
-**Teacher: Jose Christian Romero Hernandez**
+Teacher: Jose Christian Romero Hernandez
 
 
-**EQUIPMENT:**
+EQUIPMENT:
 16210958 - Aguirre Ibarra Jesus Armando
  XXXXXXXX - Victor
-
+ </h4>
 </div>
 
 
