@@ -484,13 +484,16 @@ arr = [[11, 2, 4], [4, 5, 6], [10, 8, -12]]
 ```
 
 diagonal_1 = 11 + 5 - 12 = 4
+
 diagonal_2 = 4 + 5 + 10 = 19
+
 Difference Abosulta = | 4 - 19 | = 15
 
 Descriptive function
 Developing a function called diagonalDifference is a scrip with the Scala programming language. It must return an integer that represents the difference of the absolute diagonal.
 
 diagonalDifference takes the following parameter:
+
 arr
 
 **Code**
