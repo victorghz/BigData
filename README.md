@@ -113,14 +113,32 @@ println("The value at the position ._3._1 is: "+ myValue)
  >8.  Add the following value to the map ("Miguel", 23)
  
 **Code**
-```
+```scala
+// 1. Create a list called "list" with the elements "rojo", "blanco", "negro"
 var lista = List("rojo","blanco","negro")
+
+// 2. Add 5 more items to "lista" "verde" ,"amarillo", "azul", "naranja", "perla".
 lista = lista.++:(List("verde" ,"amarillo", "azul", "naranja", "perla"))
+
+// 3. Bring the elements of "lista" "verde", "amarillo", "azul".
+lista.slice(0,3)
+
+// 4. Create a number array in the 1-1000 range in 5-in-5 steps.
 val arr = Array.range(1,1000,5)
+
+// 5. What are the unique elements of the List list (1,3,3,4,6,7,3,7) use conversion to sets
 List(1,3,3,4,6,7,3,7).toSet
+
+// 6. Create a mutable map called names that contains the following
+//     "Jose", 20, "Luis", 24, "Ana", 23, "Susana", "27"
 var Names = collection.mutable.Map( ("Jose", 20), ("Luis", 24), ("Ana", 23), ("Susana", "27"))
+
+// 6 a . Print all map keys.
 print(Names.keys)
+
+// 7 b . AAdd the following value to the map("Miguel", 23)
 Names += ("Miguel" -> 23)
+
 ```
 ### Practice 3 <a name="id3"></a>
 **Instructions**
