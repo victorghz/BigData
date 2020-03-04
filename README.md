@@ -194,7 +194,7 @@ def fibonacci(n:Int) : Double = {
 ```
 ### Practice 4 <a name="id4"></a>
 **Instructions**
-> Investigate 20 functions in spark with the Sales.csv data
+Investigate 20 functions in spark with the Sales.csv data
 
 **Code**
 ```scala
@@ -270,7 +270,7 @@ df.select(var_pop("Sales")).show()
 ```
 ### Practice 5 <a name="id5"></a>
 **Instructions**
-> Investigate 20 functions in spark with the CitiGroup2006_2008.csv data
+Investigate 20 functions in spark with the CitiGroup2006_2008.csv data
 
 **Code**
 ```scala
@@ -345,7 +345,7 @@ df.select(var_pop("Volume")).show()
 ```
 ### Practice 6 <a name="id6"></a>
 **Instructions**
-> Query with data from P2-Mispriced-Diamonds.csv
+Query with data from P2-Mispriced-Diamonds.csv
 
 **Code**
 ```scala
@@ -402,7 +402,7 @@ df.orderBy("clarity").show()
 ```
 ### Practice 7 <a name="id7"></a>
 **Instructions**
-> Investigate the definition of variance and return this function in apache spark.
+Investigate the definition of variance and return this function in apache spark.
 
 **Code**
 ```scala
@@ -434,7 +434,7 @@ df.select(stddev("Sales")).show()
 ```
 ### Practice 8 <a name="id8"></a>
 **Instructions**
-> Research the pearson correlation.
+Research the pearson correlation.
 
 **Code**
 ```scala
@@ -470,7 +470,7 @@ to be correlated in the opposite direction with 70% accuracy
 ```
 ### Exam Part 1<a name="id9"></a>
 **Instructions**
-> Given a square matrix, calculate the absolute difference between the sums of your diagonals. For example, the square matrix is shown below:
+Given a square matrix, calculate the absolute difference between the sums of your diagonals. For example, the square matrix is shown below:
 ```txt
 arr = [[11, 2, 4], [4, 5, 6], [10, 8, -12]]
 ```
@@ -520,7 +520,7 @@ diagonalDifference(arr)
 ```
 ### Exam Part 2  <a name="id10"></a> 
 **Instruction**
-> Answer the following questions with Spark DataFrames using the "CSV" Netflix_2011_2016.csv
+Answer the following questions with Spark DataFrames using the "CSV" Netflix_2011_2016.csv
 
 **Code**
 ```scala
