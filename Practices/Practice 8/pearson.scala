@@ -1,10 +1,16 @@
-//El Coeficiente de Correlación de Pearson es una medida de la correspondencia o relación lineal entre dos variables cuantitativas 
-//aleatorias. En palabras más simples se puede definir como un índice utilizado para medir el grado de relación 
-//que tienen dos variables, ambas cuantitativas.
+// PEARSON CORRELATION COEFFICIENT
 
-//Cuando el coeficiente es negativo las variables se correlacionan en un sentido inverso.
+// Definition
+/*The Pearson Correlation Coefficient is a measure of the correspondence or linear 
+relationship between two random quantitative variables. In simpler words it can be defined as 
+an index used to measure the degree of relationship that two variables have, both quantitative.
 
-//Cuando el coeficiente es negativo las variables se correlacionan en un sentido directo.
+When the coefficient is negative, the variables are correlated in the opposite direction.
+
+When the coefficient is negative, the variables are correlated in a direct sense.
+*/
+
+// Example
 
 import org.apache.spark.sql.SparkSession
 
@@ -17,5 +23,7 @@ df.printSchema()
 
 df.select(corr("Open","Volume")).show() //r = -0.7004590761697382
 
-//Como el coeficiente es negativo se dice que los atributos se correlacionan en sentido
-//inverso con un 70% de precision
+/*
+As the coefficient is negative, the attributes are said 
+to be correlated in the opposite direction with 70% accuracy
+*/
