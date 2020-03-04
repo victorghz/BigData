@@ -124,7 +124,8 @@ Names += ("Miguel" -> 23)
 ```
 ### Practice 3 <a name="id3"></a>
 **Instructions**
-> Write 5 scala funtions (from different algorithms) where, given a 'n' parameter, print it's value on the fibonacci sequence
+
+Write 5 scala funtions (from different algorithms) where, given a 'n' parameter, print it's value on the fibonacci sequence
 
 **Code**
 ```
@@ -194,6 +195,7 @@ def fibonacci(n:Int) : Double = {
 ```
 ### Practice 4 <a name="id4"></a>
 **Instructions**
+
 Investigate 20 functions in spark with the Sales.csv data
 
 **Code**
@@ -270,6 +272,7 @@ df.select(var_pop("Sales")).show()
 ```
 ### Practice 5 <a name="id5"></a>
 **Instructions**
+
 Investigate 20 functions in spark with the CitiGroup2006_2008.csv data
 
 **Code**
@@ -345,6 +348,7 @@ df.select(var_pop("Volume")).show()
 ```
 ### Practice 6 <a name="id6"></a>
 **Instructions**
+
 Query with data from P2-Mispriced-Diamonds.csv
 
 **Code**
@@ -402,6 +406,7 @@ df.orderBy("clarity").show()
 ```
 ### Practice 7 <a name="id7"></a>
 **Instructions**
+
 Investigate the definition of variance and return this function in apache spark.
 
 **Code**
@@ -434,6 +439,7 @@ df.select(stddev("Sales")).show()
 ```
 ### Practice 8 <a name="id8"></a>
 **Instructions**
+
 Research the pearson correlation.
 
 **Code**
@@ -470,7 +476,9 @@ to be correlated in the opposite direction with 70% accuracy
 ```
 ### Exam Part 1<a name="id9"></a>
 **Instructions**
+
 Given a square matrix, calculate the absolute difference between the sums of your diagonals. For example, the square matrix is shown below:
+
 ```txt
 arr = [[11, 2, 4], [4, 5, 6], [10, 8, -12]]
 ```
@@ -520,6 +528,7 @@ diagonalDifference(arr)
 ```
 ### Exam Part 2  <a name="id10"></a> 
 **Instruction**
+
 Answer the following questions with Spark DataFrames using the "CSV" Netflix_2011_2016.csv
 
 **Code**
