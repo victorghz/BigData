@@ -11,7 +11,10 @@ import spark.implicits._
 df.show()
 
 //SPARKSQL NOTATION
-
+for(i <- Array.range(0,5))
+    {
+        println(df.columns(i))
+    }
 // Returns the columns with prices greater than 350.
 df.filter($"price">350).show()
 
