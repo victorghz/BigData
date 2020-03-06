@@ -18,15 +18,13 @@ df.printSchema()
     }
     
 // [ 6 ] Use describe () to learn about the DataFrame.
-df.describe().show()for(i <- Array.range(0,5))
-    {
-        println(df.columns(i))
-    }
+df.describe().show()
+
     
 /* [ 7 ] Create a new dataframe with a column called new called "HV Ratio" which is the 
 relationship between the price of the "High" column versus the "Volume" column of shares 
 traded for a day */
-val dfHVRatio = df.withColumn("HV Ratio",df("High")/df("Volume")) 
+val dfHVRatio = df.withColumn("HV Ratio",df("High")/df("Volume")).show()
 
 // [ 8 ] What day had the highest peak in the "Close" column?
 val maxClose = df.select(max("Close"),max("Date")).show()
