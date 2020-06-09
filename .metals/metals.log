@@ -109,3 +109,9 @@ INFORMACIÓN: Unsupported notification method: $/setTraceNotification
 2020.06.09 00:42:54 WARN  no build tool detected in workspace '/home/armando/github/Equipo/BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.06.09 00:43:35 WARN  no build tool detected in workspace '/home/armando/github/Equipo/BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.06.09 00:47:04 WARN  no build target for: /home/armando/github/Equipo/BigData/Evaluations/Exam_Unit3.scala
+jun 09, 2020 12:50:54 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTraceNotification
+2020.06.09 00:55:07 WARN  no build tool detected in workspace '/home/armando/github/Equipo/BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.06.09 00:55:07 WARN  no build target for: /home/armando/github/Equipo/BigData/Evaluations/Exam_Unit3.scala
+2020.06.09 00:55:09 WARN  no build tool detected in workspace '/home/armando/github/Equipo/BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.06.09 01:21:34 INFO  shutting down Metals
