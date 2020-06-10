@@ -155,3 +155,4 @@ INFORMACIÓN: Unsupported notification method: $/setTraceNotification
 2020.06.09 17:35:42 WARN  no build tool detected in workspace '/home/armando/github/Equipo/BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 jun 09, 2020 5:35:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFORMACIÓN: Unsupported notification method: $/setTraceNotification
+2020.06.09 19:12:49 INFO  shutting down Metals
