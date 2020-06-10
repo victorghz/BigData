@@ -20,4 +20,4 @@
 ## Unit 3
 
 ### Examen Unit 3 
-![For more information click here](https://github.com/victorghz/BigData/blob/Unidad_3/Evaluations/Exam_Unit3.scala)
+![For more information click here](https://github.com/victorghz/BigData/blob/Unidad_3/Evaluations)
